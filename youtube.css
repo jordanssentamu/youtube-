@@ -1,0 +1,129 @@
+nav {
+  display: flex;
+}
+.dash {
+  margin-top: 0px;
+  border: 0px;
+}
+.layer {
+  border: 1px solid black;
+  margin: 5px;
+  width: 20px;
+  padding: 0px;
+}
+.play {
+  margin: 0px 1px 0px 10px;
+  background-color: red;
+  padding: 8px;
+  border-radius: 15px;
+}
+.play2 {
+  width: 20px;
+  height: 24px;
+  color: white;
+}
+.text {
+  margin-left: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.above {
+  font-size: 13px;
+  font-weight: lighter;
+}
+button,
+input,
+.microphone,
+.vi,
+.notification-bar,
+.own,
+.image {
+  padding: 0px;
+  margin-top: 0px;
+  float: left;
+}
+button,
+.microphone {
+  height: 40px;
+}
+.search,
+.mic,
+.video,
+.notify,
+.sort {
+  width: 24px;
+  height: 24px;
+}
+.own {
+  background-color: red;
+  border-radius: 30px;
+  font-size: smaller;
+  margin-left: -10px;
+  padding-bottom: 0px;
+  color: white;
+}
+img {
+  width: 24px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+input {
+  width: 50em;
+  height: 40px;
+}
+.search {
+  margin: 0px 10px;
+}
+.microphone {
+  margin-right: 30px;
+}
+.video,
+.own {
+  margin: 0px 10px;
+}
+.tumb1,
+.tumb2,
+.share,
+.scissor,
+.save,
+.dots {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 0px;
+  margin: 0px 20px;
+  background: white;
+}
+main {
+  padding: 5px;
+  margin-bottom: 35px;
+}
+ul {
+  list-style: none;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+input[type="text"] {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: gray solid 1px;
+  background-color: transparent;
+}
