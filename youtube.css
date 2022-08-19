@@ -1,36 +1,50 @@
 nav {
   display: flex;
 }
+
 .dash {
   margin-top: 0px;
   border: 0px;
 }
+
 .layer {
   border: 1px solid black;
   margin: 5px;
   width: 20px;
   padding: 0px;
 }
+
 .play {
   margin: 0px 1px 0px 10px;
   background-color: red;
   padding: 8px;
-  border-radius: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 5px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  width: 20px;
 }
+
 .play2 {
   width: 20px;
   height: 24px;
   color: white;
 }
+
 .text {
   margin-left: 0px;
   font-weight: bold;
   font-size: 20px;
 }
+
 .above {
   font-size: 13px;
   font-weight: lighter;
 }
+
 button,
 input,
 .microphone,
@@ -42,6 +56,7 @@ input,
   margin-top: 0px;
   float: left;
 }
+
 button,
 .microphone {
   height: 40px;
@@ -54,19 +69,47 @@ button,
   width: 24px;
   height: 24px;
 }
+
+.notify {
+  margin-right: -20px;
+}
+
 .own {
   background-color: red;
   border-radius: 30px;
   font-size: smaller;
   margin-left: -10px;
-  padding-bottom: 0px;
+  padding-bottom: 12px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 0pxpx;
   color: white;
+  height: 3px;
+  width: 15px;
 }
+
+.microphone {
+  background-color: #f2f2f2;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 25%;
+}
+
+.mic {
+  padding: 5px 10px 0px 10px;
+}
+
+.vi {
+  margin-left: 10px;
+}
+
 img {
   width: 24px;
   border-radius: 50%;
   margin-bottom: 30px;
 }
+
 input {
   width: 50em;
   height: 40px;
@@ -74,13 +117,16 @@ input {
 .search {
   margin: 0px 10px;
 }
+
 .microphone {
   margin-right: 30px;
 }
+
 .video,
 .own {
   margin: 0px 10px;
 }
+
 .tumb1,
 .tumb2,
 .share,
@@ -90,40 +136,188 @@ input {
   width: 24px;
   height: 24px;
   margin-bottom: 0px;
-  margin: 0px 20px;
+  margin: 0px 13px;
   background: white;
 }
+
 main {
   padding: 5px;
   margin-bottom: 35px;
+  margin-right: -10px;
 }
+
 ul {
   list-style: none;
 }
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
+
 input[type="text"] {
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom: gray solid 1px;
+  border-bottom: #999999 solid 1px;
   background-color: transparent;
+}
+
+.picture {
+  float: none;
+}
+
+.container,
+li,
+.wrapper {
+  display: flex;
+}
+
+li {
+  margin: 10px 5px 0px 0px;
+}
+
+.title {
+  margin-left: 5px;
+}
+
+.comment,
+.sort,
+.by {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.sort,
+.tumb1,
+.tumb2,
+.share,
+.scissor,
+.save,
+.dots {
+  margin-top: 20px;
+  margin-bottom: -3px;
+}
+
+.comment {
+  margin-left: 0px;
+}
+
+ul {
+  margin-left: 0px;
+  text-align: left;
+}
+
+aside {
+  border-bottom: none;
+  max-width: 500px;
+}
+main {
+  margin-right: 30px;
+}
+
+.contentwrapper {
+  margin-top: 20px;
+  display: flex;
+}
+
+.subscriber,
+.picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.colored {
+  color: white;
+  background-color: red;
+  border: 1px solid;
+  width: 100px;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  height: 20px;
+  margin-top: -5px;
+}
+
+.people {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 400px;
+  margin-top: -5px;
+}
+
+.littlewords {
+  font-size: 13px;
+  color: gray;
+}
+.finer,
+.contain {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 30px;
+}
+
+.aline {
+  margin-left: 60px;
+}
+
+.viewers {
+  color: #4d4d4d;
+}
+
+.pic {
+  display: flex;
+}
+
+.all {
+  color: white;
+  background-color: black;
+  width: 40px;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.html,
+.cs,
+.relate {
+  background-color: #999999;
+  width: 40px;
+  border-radius: 50px;
+  padding: 10px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.cs {
+  width: 120px;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.relate {
+  width: 50px;
+  text-align: center;
+}
+
+.computercontainer {
+  display: flex;
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+video {
+  width: 150px;
+  height: 100px;
+}
+
+.side {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.inner {
+  margin-left: 20px;
 }
