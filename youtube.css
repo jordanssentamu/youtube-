@@ -321,3 +321,8 @@ video {
 .inner {
   margin-left: 20px;
 }
+
+.lit {
+  color: #737373;
+  font-size: 14px;
+}
